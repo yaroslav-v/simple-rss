@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple RSS</string>
+
+    <!-- Tab names -->
+    <string name="title_tab1">Новости</string>
+    <string name="title_tab2">Объявления</string>
+    <string name="title_tab3">О школе</string>
+
+    <!-- Share messages -->
+    <string name="feed_sharing_message">%1$s \n\n Читайте подробнее: %2$s. Отправлено через %3$s</string>
+    <string name="feed_sharing_dialog">Поделись используя</string>
+
+    <!-- Messages -->
+    <string name="publication_date">Опубликовано %1$s</string>
+
+    <!-- Menu -->
+    <string name="action_settings">Настройки</string>
+
+    <!-- Errors -->
+    <string name="error">%1$s\n%2$s</string>
+    <string name="msg_error">Произошло что-то ужасное. Пожалуйста сообщите нам об этом.</string>
+    <string name="msg_server_error">Мы не можем обновить данные сейчас. Пожалуйста попробуйте позже.</string>
+    <string name="msg_connect_error">Кажется у вас нет подключения к сети. Попробуйте подключиться к WiFi или проверьте настройки устройства.</string>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Simple RSS</string>
+
+    <!-- Tab names -->
+    <string name="title_tab1">News</string>
+    <string name="title_tab2">Announcements</string>
+    <string name="title_tab3">About</string>
+
+    <!-- Share messages -->
+    <!-- Facebook: Sharing with Facebook has the problem that it only accepts an url in the EXTRA_TEXT. The native FB app will then grab a text and an image from this url to compose the post. -->
+    <!-- Twitter: Take into account Twitter will only accept text/plain without any markup and with 144 chars at max. -->
+    <string name="feed_sharing_message">%1$s \n\n Read more: %2$s. Shared via %3$s.</string>
+    <string name="feed_sharing_dialog">Share using</string>
+
+    <!-- Messages -->
+    <string name="publication_date">Published on the %1$s</string>
+
+    <!-- Menu -->
+    <string name="action_settings">Settings</string>
+
+    <!-- Errors -->
+    <string name="error">%1$s\n%2$s</string>
+    <string name="msg_error">Something went terribly wrong. Please report.</string>
+    <string name="msg_server_error">We are unable to refresh the content at this time. Please try again in a moment.</string>
+    <string name="msg_connect_error">It appears there is no available network connection. Try to find a WiFi point or look at your device settings.</string>
+
+    <!-- Formatters -->
+    <string name="fmt_user_agent" translatable="false">%1$s %2$s build %3$d (%4$s; %5$s %6$s; %7$s)</string>
+
+    <!-- Dummy placeholders -->
+    <string name="text_placeholder" translatable="false">Dummy text</string>
+
+</resources>

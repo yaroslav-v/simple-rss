@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/margin_medium"
+    android:paddingLeft="@dimen/margin_normal"
+    android:paddingRight="@dimen/margin_normal"
+    android:paddingTop="@dimen/margin_medium" >
+
+    <RelativeLayout
+        android:id="@+id/item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_micro3"
+        android:layout_marginLeft="@dimen/margin_micro2"
+        android:layout_marginRight="@dimen/margin_micro2"
+        android:layout_marginTop="@dimen/margin_micro3"
+        android:background="@drawable/bubble"
+        android:descendantFocusability="blocksDescendants"
+        android:paddingBottom="@dimen/margin_normal"
+        android:paddingLeft="@dimen/margin_small"
+        android:paddingRight="@dimen/margin_small"
+        android:paddingTop="@dimen/margin_normal" >
+
+        <ImageView
+            android:id="@+id/item_image"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:minHeight="@dimen/size_image"
+            android:scaleType="fitCenter"
+            android:src="@drawable/placeholder" />
+
+        <TextView
+            android:id="@+id/item_title"
+            style="@style/AppTextTitle.MultiLine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/item_image"
+            android:layout_marginRight="@dimen/margin_small"
+            android:layout_toStartOf="@+id/item_share"
+            android:text="@string/text_placeholder" />
+
+        <ImageButton
+            android:id="@+id/item_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:background="@drawable/btn_share_btn" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/item_new_ribbon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/new_ribbon" />
+
+</FrameLayout>
