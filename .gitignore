@@ -2,7 +2,7 @@
 ## Google Android, Java ##
 ##########################
 # Built application files
-*.apk
+#*.apk
 *.ap_
 
 # Files for the Dalvik VM
@@ -65,7 +65,7 @@ xcuserdata
 
 ## Obj-C/Swift specific
 *.hmap
-*.ipa
+#*.ipa
 
 # CocoaPods
 #
