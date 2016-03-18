@@ -35,6 +35,9 @@ proguard/
 # Android Studio captures folder
 captures/
 
+# IDE configuration
+.idea/
+
 ############################
 ## Apple iOS, Objective-C ##
 ############################
