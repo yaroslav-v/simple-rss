@@ -10,7 +10,7 @@ The application is distributed with open source. Application is based on the [An
 
 # Demo
 
-Demo of this application can be found in `app/` folder of this repository or on [Google Play](https://play.google.com/store/apps/details?id=com.genie.simplerss)
+Demo of this application can be found in `app/` folder of this repository.
 
 # Features
 
@@ -35,17 +35,18 @@ These sources is based on my old project that was released some time ago for And
 The purpose of the publication of the project to demonstrate in the process of adapting an application for the new version of the Android how patterns of development are changing.
 
 # Copyright
-
+```
 Copyright 2016 Yaroslav Veykov, Genie in a Bottle studio
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
 
-    http://www.apache.org/licenses/LICENSE-2.0
+http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software
 distributed under the License is distributed on an "AS IS" BASIS,
 WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
+```
